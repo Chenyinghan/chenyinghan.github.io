@@ -1,15 +1,19 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am currently a second-year undergraduate student at the [Department of Computer Science and Technology, University of Cambridge](https://www.cst.cam.ac.uk/)，supported by Jardine Scholarship. In parallel, I am completing a dual-degree B.Sc. in General Artificial Intelligence in the [Tong Class](https://tongclass.ac.cn/) at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). I work closely with the [CoRe Lab](https://pku.ai/) at [PKU Institute for Artificial Intelligence](https://www.ai.pku.edu.cn/en/), advised by [Dr. Yixin Zhu](https://yzhu.io/).
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My research lies at the intersection of robot learning, physics-based simulation, grasping and manipulation, and multimodal perception. I am broadly interested in enabling embodied agents to understand physical structures, reason about dynamics, and perform dexterous manipulation through integrated multimodal sensing. My recent work spans visual–tactile sensing and learning, bimanual manipulation, tool-use and design, and differentiable simulation. I have published or submitted papers to IROS, CoRL, and other top venues in robotics and embodied AI, and I hope to continue probing the deeper principles underlying intelligent robotic systems!
+
+My long-term goal is to develop general-purpose robotic intelligence capable of perceiving, planning, and acting in the physical world with human-level adaptability and finesse, ultimately enabling robots to assist humans in everyday, unstructured environments.
+
+
 
 A data-driven personal website
 ======
