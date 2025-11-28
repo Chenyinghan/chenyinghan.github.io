@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-To be released
-======
+## To be released
 My Curriculum Vitae will be coming soon. Please check back later.
 
 <!-- Education
