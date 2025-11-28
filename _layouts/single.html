@@ -47,7 +47,7 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
+        <!-- {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
@@ -71,7 +71,18 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% endif %}
+        {% endif %} -->
+
+        <p style="font-size: smaller">
+          {% if page.authors %}Author List: {{ page.citation }}<br />{% endif %}
+          
+          {% if page.projecturl %}<a href="{{  page.projecturl  }}"><i class="fas fa-fw fa-globe"></i> Project Page</a> {% endif %}
+          {% if page.paperurl %}<a href="{{  page.paperurl  }}"><i class="fas fa-fw fa-file-pdf"></i> Paper</a> {% endif %}
+          {% if page.codeurl %}<a href="{{  page.codeurl  }}"><i class="fab fa-fw fa-github"></i> Code</a> {% endif %}
+          {% if page.slidesurl %}<a href="{{  page.slidesurl  }}"><i class="fas fa-fw fa-file-powerpoint"></i> Slides</a> {% endif %}
+          {% if page.videourl %}<a href="{{  page.videourl  }}"><i class="fab fa-fw fa-youtube"></i> Video</a> {% endif %}
+          {% if page.bibtexurl %}<a href="{{  page.bibtexurl  }}"><i class="fas fa-fw fa-book"></i> BibTeX</a> {% endif %}
+        </p>
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
