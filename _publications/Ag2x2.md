@@ -14,7 +14,7 @@ slidesurl: #'https://academicpages.github.io/files/slides1.pdf'
 videourl: # 
 bibtexurl: '/files/Ag2x2/Ag2x2.bib'
 
-authors: 'Ziyin Xiong<sup>*</sup>, Yinghan Chen<sup>*</sup>, Puhao Li, Yixin Zhu, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>'
+authors: 'Ziyin Xiong*, Yinghan Chen*, Puhao Li, Yixin Zhu, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>'
 ---
 <img src="/files/Ag2x2/teaser.png" alt="Teaser Image" width="100%" style="border-radius: 5px;">
 
