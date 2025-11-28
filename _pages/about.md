@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Homepage"
+title: "Yinghan Chen"
 author_profile: true
 redirect_from: 
   - /about/
