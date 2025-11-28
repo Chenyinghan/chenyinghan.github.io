@@ -74,11 +74,12 @@ layout: default
         {% endif %} -->
 
         <p style="font-size: smaller">
-          {% if page.authors %}Author List: {{ page.citation }}<br />{% endif %}
+          {% if page.authors %}{{page.authors}}<br />{% endif %}
           
           {% if page.projecturl %}<a href="{{  page.projecturl  }}"><i class="fas fa-fw fa-globe"></i> Project Page</a> {% endif %}
           {% if page.paperurl %}<a href="{{  page.paperurl  }}"><i class="fas fa-fw fa-file-pdf"></i> Paper</a> {% endif %}
           {% if page.codeurl %}<a href="{{  page.codeurl  }}"><i class="fab fa-fw fa-github"></i> Code</a> {% endif %}
+          {% if post.arxivurl %}<a href="{{  post.arxivurl  }}"><i class="ai ai-arxiv ai-fw"></i> ArXiv</a> {% endif %}
           {% if page.slidesurl %}<a href="{{  page.slidesurl  }}"><i class="fas fa-fw fa-file-powerpoint"></i> Slides</a> {% endif %}
           {% if page.videourl %}<a href="{{  page.videourl  }}"><i class="fab fa-fw fa-youtube"></i> Video</a> {% endif %}
           {% if page.bibtexurl %}<a href="{{  page.bibtexurl  }}"><i class="fas fa-fw fa-book"></i> BibTeX</a> {% endif %}
