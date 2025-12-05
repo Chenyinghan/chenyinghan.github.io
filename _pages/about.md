@@ -19,7 +19,7 @@ News
 ======
 - **[Aug 2025]** Our research [ControlVLA](https://controlvla.github.io/) is accepted by CoRL 2025.
 - **[Jun 2025]** Our research [Ag2x2](https://github.com/ziyin-xiong/Ag2x2) is accepted by IROS 2025 as an oral presentation.
-- **[Feb 2025]** Our research [ControlVLA](https://controlvla.github.io/) (previsously named ControlManip) is accepted by WRL (Robot Learning Workshop) @ ICLR 2025.
+- **[Feb 2025]** Our research [ControlVLA](https://controlvla.github.io/) (formerly ControlManip) is accepted by WRL (7th Robot Learning Workshop) @ ICLR 2025.
 - **[Feb 2025]** I have received Soong Ching-ling Scholarship.
 - **[Jan 2024]** I have received Jardine Scholarship.
 
