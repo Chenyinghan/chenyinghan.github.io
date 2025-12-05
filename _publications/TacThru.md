@@ -16,6 +16,6 @@ bibtexurl: # '/files/Ag2x2/Ag2x2.bib'
 
 authors: 'Yuyang Li*, Yinghan Chen*, Zihang Zhao, Puhao Li, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>, Yixin Zhu<sup><i class="fas fa-envelope"></i></sup>'
 ---
-<img src="/files/TacThru/teaser.png" alt="Teaser Image" width="100%" style="border-radius: 5px;">
+<img src="/files/TacThru/teaser.svg" alt="Teaser Image" width="100%" style="border-radius: 5px;">
 
 This article is currently under review, and a related patent application is under examination. The full content will be made publicly available as soon as the review process and patent approval are completed.
