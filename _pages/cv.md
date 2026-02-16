@@ -9,8 +9,68 @@ redirect_from:
 
 {% include base_path %}
 
-## To be released
-My Curriculum Vitae will be coming soon. Please check back later.
+{% include base_path %}
+
+## EDUCATION
+
+- **B.A. in Computer Science**, University of Cambridge (2024 – )  
+- **(Dual-degree) B.Sc. in General Artificial Intelligence**, Tong Class, Yuanpei College, Peking University  
+
+---
+
+## RESEARCH INTERESTS
+
+<div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.2rem 2rem;">
+  <ul>
+    <li>Robot Learning</li>
+    <li>Physics-based Simulation and Differentiable Dynamics</li>
+    <li>Robot Locomotion and Humanoid Control</li>
+  </ul>
+  <ul>
+    <li>Grasping and Manipulation</li>
+    <li>Tool Design and Tool-use</li>
+    <li>Multimodal Perception (Visual, Tactile, and Beyond)</li>
+  </ul>
+</div>
+
+---
+
+## RESEARCH EXPERIENCE
+
+- **PKU CoRe Lab**, advised by Dr. Yixin Zhu from PKU Institute for AI (2024 – )  
+
+---
+
+## PUBLICATIONS
+
+- **Simultaneous Tactile-Visual Perception for Learning Multimodal Robot Manipulation**  
+  *Under review*  
+  Yuyang Li*, Yinghan Chen*, Zihang Zhao, Puhao Li, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>, Yixin Zhu<sup><i class="fas fa-envelope"></i></sup>
+
+- **ControlVLA: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models**  
+  *Accepted to CoRL 2025, and Robot Learning Workshop @ ICLR 2025*  
+  Puhao Li, Yingying Wu, Ziheng Xi, Wanlin Li, Yuzhe Huang, Zhiyuan Zhang, Yinghan Chen, Jianan Wang, Song-Chun Zhu, Tengyu Li<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>
+
+- **Ag2x2: A Robust Agent-Agnostic Visual Representation Boosts Zero-Shot Learning of Bimanual Robotic Manipulation**  
+  *Accepted to IROS 2025, oral presentation*  
+  Ziyin Xiong*, Yinghan Chen*, Puhao Li, Yixin Zhu, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>
+
+---
+
+## HONORS AND AWARDS
+
+- Soong Ching-ling Scholarship (2024)  
+- Jardine Scholarship (2024)  
+- Mingde Scholarship (2023)  
+- First prize in China region, Honorable Award in the worldwide final in S.-T Yau High School Science Award (2022)  
+- Finalist representative in the International Science & Engineering Fair (2022)  
+- China Youth Science & Technology Innovation Award (2022)  
+- First prize in China Adolescents Science & Technology Innovation Contest (2022)  
+- First prize in the China’s Mathematical Modelling Scheme (2021)  
+- 6th place in the Amazon AWS DeepRacer Unmanned Vehicle League in China (2021)  
+- First prize in the National Olympiad in Informatics in Provinces (2018)  
+- First prize in the 19th Beijing Adolescent Robotics Competition (2018)  
+
 
 <!-- Education
 ======

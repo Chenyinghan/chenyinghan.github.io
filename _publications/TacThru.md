@@ -5,7 +5,7 @@ category: preprints # books / manuscripts / conferences / preprints
 permalink: /publication/TacThru
 excerpt: '<img src="/files/TacThru/teaser.svg" alt="Teaser Image" width="80%" style="border-radius: 5px;">'
 date: 2025-12-12
-venue: 'Under Review'
+venue: 'arXiv'
 projecturl: 'https://tacthru.yuyang.li'
 paperurl: 'https://arxiv.org/pdf/2512.09851'
 codeurl: 'https://github.com/YuyangLee/TacThru'
