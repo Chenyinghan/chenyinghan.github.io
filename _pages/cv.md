@@ -20,16 +20,13 @@ redirect_from:
 
 ## RESEARCH INTERESTS
 
-<div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.2rem 2rem;">
-  <ul>
-    <li>Robot Learning</li>
-    <li>Grasping and Manipulation</li>
-    <li>Multimodal Perception (Visual, Tactile, and Beyond)</li>
-    <li>Tool Design and Tool-use</li>
-    <li>Robot Locomotion and Humanoid Control</li>
-    <li>Physics-based Simulation and Differentiable Dynamics</li>
-  </ul>
-</div>
+- Robot Learning
+- Grasping and Manipulation
+- Multimodal Perception (Visual, Tactile, and Beyond)
+- Tool Design and Tool-use
+- Robot Locomotion and Humanoid Control
+- Physics-based Simulation and Differentiable Dynamics
+
 
 ---
 
