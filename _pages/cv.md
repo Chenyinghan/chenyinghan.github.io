@@ -13,8 +13,8 @@ redirect_from:
 
 ## EDUCATION
 
-- **B.A. in Computer Science**, University of Cambridge (2024 – )  
-- **(Dual-degree) B.Sc. in General Artificial Intelligence**, Tong Class, Yuanpei College, Peking University  
+- B.A. in Computer Science, University of Cambridge (2024 – )  
+- (Dual-degree) B.Sc. in General Artificial Intelligence, Tong Class, Yuanpei College, Peking University  
 
 ---
 
@@ -23,13 +23,11 @@ redirect_from:
 <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.2rem 2rem;">
   <ul>
     <li>Robot Learning</li>
-    <li>Physics-based Simulation and Differentiable Dynamics</li>
-    <li>Robot Locomotion and Humanoid Control</li>
-  </ul>
-  <ul>
     <li>Grasping and Manipulation</li>
-    <li>Tool Design and Tool-use</li>
     <li>Multimodal Perception (Visual, Tactile, and Beyond)</li>
+    <li>Tool Design and Tool-use</li>
+    <li>Robot Locomotion and Humanoid Control</li>
+    <li>Physics-based Simulation and Differentiable Dynamics</li>
   </ul>
 </div>
 
@@ -45,7 +43,7 @@ redirect_from:
 
 - **Simultaneous Tactile-Visual Perception for Learning Multimodal Robot Manipulation**  
   *Under review*  
-  Yuyang Li*, Yinghan Chen*, Zihang Zhao, Puhao Li, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>, Yixin Zhu<sup><i class="fas fa-envelope"></i></sup>
+  Yuyang Li<sup>&#42;</sup>, Yinghan Chen<sup>&#42;</sup>, Zihang Zhao, Puhao Li, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>, Yixin Zhu<sup><i class="fas fa-envelope"></i></sup>
 
 - **ControlVLA: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models**  
   *Accepted to CoRL 2025, and Robot Learning Workshop @ ICLR 2025*  
@@ -53,7 +51,7 @@ redirect_from:
 
 - **Ag2x2: A Robust Agent-Agnostic Visual Representation Boosts Zero-Shot Learning of Bimanual Robotic Manipulation**  
   *Accepted to IROS 2025, oral presentation*  
-  Ziyin Xiong*, Yinghan Chen*, Puhao Li, Yixin Zhu, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>
+  Ziyin Xiong<sup>&#42;</sup>, Yinghan Chen<sup>&#42;</sup>, Puhao Li, Yixin Zhu, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>
 
 ---
 
