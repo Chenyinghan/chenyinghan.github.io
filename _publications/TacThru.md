@@ -5,7 +5,7 @@ category: manuscripts # books / manuscripts / conferences / preprints
 permalink: /publication/TacThru
 excerpt: '<img src="/files/TacThru/teaser.svg" alt="Teaser Image" width="80%" style="border-radius: 5px;">'
 date: 2026-3-3
-venue: 'arXiv'
+venue: 'IEEE Robotics and Automation Letters (RA-L)'
 projecturl: 'https://tacthru.yuyang.li'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/11425767'
 codeurl: 'https://github.com/YuyangLee/TacThru'
