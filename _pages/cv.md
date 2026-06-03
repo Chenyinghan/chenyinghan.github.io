@@ -32,6 +32,8 @@ redirect_from:
 
 ## RESEARCH EXPERIENCE
 
+- **The Movement Lab @ Stanford**, advised by Dr. Karen Liu from Computer Science Department at Stanford University (2026 – )  
+
 - **PKU CoRe Lab**, advised by Dr. Yixin Zhu from PKU Institute for AI (2024 – )  
 
 ---
@@ -39,7 +41,7 @@ redirect_from:
 ## PUBLICATIONS
 
 - **Simultaneous Tactile-Visual Perception for Learning Multimodal Robot Manipulation**  
-  *Under review*  
+  *Accepted to RA-L 2026*  
   Yuyang Li<sup>&#42;</sup>, Yinghan Chen<sup>&#42;</sup>, Zihang Zhao, Puhao Li, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>, Yixin Zhu<sup><i class="fas fa-envelope"></i></sup>
 
 - **ControlVLA: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models**  

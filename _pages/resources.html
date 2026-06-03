@@ -10,8 +10,6 @@ author_profile: true
 This section is dedicated to non-research content, including a compilation of useful resources, external links, and my other creative endeavors.
 
 
-{% comment %}
-  {% for post in site.resources %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endcomment %}
+{% for post in site.resources %}
+  {% include archive-single.html %}
+{% endfor %}

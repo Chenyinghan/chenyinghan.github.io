@@ -1,18 +1,18 @@
 ---
 title: "Simultaneous Tactile-Visual Perception for Learning Multimodal Robot Manipulation"
 collection: publications
-category: preprints # books / manuscripts / conferences / preprints
+category: manuscripts # books / manuscripts / conferences / preprints
 permalink: /publication/TacThru
 excerpt: '<img src="/files/TacThru/teaser.svg" alt="Teaser Image" width="80%" style="border-radius: 5px;">'
-date: 2025-12-12
+date: 2026-3-3
 venue: 'arXiv'
 projecturl: 'https://tacthru.yuyang.li'
-paperurl: 'https://arxiv.org/pdf/2512.09851'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/11425767'
 codeurl: 'https://github.com/YuyangLee/TacThru'
-arxivurl: 'http://arxiv.org/abs/2512.09851'
+arxivurl: 'https://arxiv.org/abs/2512.09851'
 slidesurl: #'https://academicpages.github.io/files/slides1.pdf'
 videourl: 'https://vimeo.com/1145307821'
-bibtexurl: # '/files/Ag2x2/Ag2x2.bib'
+bibtexurl: '/files/TacThru/TacThru.bib'
 
 authors: 'Yuyang Li*, Yinghan Chen*, Zihang Zhao, Puhao Li, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>, Yixin Zhu<sup><i class="fas fa-envelope"></i></sup>'
 ---

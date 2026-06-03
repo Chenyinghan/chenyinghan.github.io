@@ -17,6 +17,7 @@ My long-term goal is to develop general-purpose robotic intelligence capable of 
 
 News
 ======
+- **[Mar 2026]** Our research [TacThru](https://tacthru.yuyang.li/) is accepted by RA-L 2026.
 - **[Feb 2026]** Honored to announce that I will be joining the [Movement Lab](https://stanford-tml.github.io/main/) at Stanford University as a summer intern.
 - **[Dec 2025]** We have open-sourced the [TacThru](https://tacthru.yuyang.li/) project.
 - **[Aug 2025]** Our research [ControlVLA](https://controlvla.github.io/) is accepted by CoRL 2025.
@@ -39,11 +40,11 @@ For those users that need more advanced functionality, the template also support
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+2. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
+3. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+4. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+5. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+6. Check status by going to the repository settings, in the "GitHub pages" section
 
 Site-wide configuration
 ------
