@@ -3,7 +3,5 @@ title: "Introduction to TacThru: Simultaneous Tactile-Visual Perception for Lear
 date: 2026-03-13
 permalink: /posts/wechat-tacthru/
 link: https://mp.weixin.qq.com/s/b73VmXga5S--wNd1pfkvFg
+read_time: false
 ---
-
-
-[Read on WeChat](https://mp.weixin.qq.com/s/b73VmXga5S--wNd1pfkvFg)
