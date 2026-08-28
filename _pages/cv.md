@@ -13,8 +13,7 @@ redirect_from:
 
 ## EDUCATION
 
-- B.A. in Computer Science, University of Cambridge (2024 – )  
-- (Dual-degree) B.Sc. in General Artificial Intelligence, Tong Class, Yuanpei College, Peking University  
+- B.Sc. in Artificial Intelligence, Tong Class, Yuanpei College, Peking University (Expected Jun. 2028)
 
 ---
 
@@ -24,7 +23,6 @@ redirect_from:
 - Grasping and Manipulation
 - Multimodal Perception (Visual, Tactile, and Beyond)
 - Tool Design and Tool-use
-- Robot Locomotion and Humanoid Control
 - Physics-based Simulation and Differentiable Dynamics
 
 
