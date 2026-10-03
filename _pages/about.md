@@ -17,19 +17,20 @@ My long-term goal is to develop general-purpose robotic intelligence capable of 
 
 News
 ======
-- **[Sep 2026]** We have open-sourced [HOT: Robot Tool Design from Scratch via Behavior-Aware Hierarchical Optimization](https://hot.yinghanchen.com/), a framework that jointly designs tool structure, shape, and action from scratch.
-- **[Jul 2026]** [TacThru](https://tacthru.yuyang.li/) received a Runner-up Award at the R:SS 2026 Workshop on Tactile Sensing for Robotic Foundation Models.
-- **[Jul 2026]** I received the Dean's Scholarship (Special Award) from the Institute for Artificial Intelligence, Peking University.
-- **[Jun 2026]** I received the Academic Rising Star Award, an undergraduate research honor from Yuanpei College, Peking University.
-- **[May 2026]** I was awarded a Beijing Natural Science Foundation "Qiyan" Undergraduate Research Grant.
-- **[Mar 2026]** Our research [TacThru](https://tacthru.yuyang.li/) is accepted by RA-L 2026.
-- **[Feb 2026]** Honored to announce that I will be joining the [Movement Lab](https://stanford-tml.github.io/main/) at Stanford University as a summer intern.
-- **[Dec 2025]** We have open-sourced the [TacThru](https://tacthru.yuyang.li/) project.
-- **[Aug 2025]** Our research [ControlVLA](https://controlvla.github.io/) is accepted by CoRL 2025.
-- **[Jun 2025]** Our research [Ag2x2](https://github.com/ziyin-xiong/Ag2x2) is accepted by IROS 2025 as an oral presentation.
-- **[Feb 2025]** Our research [ControlVLA](https://controlvla.github.io/) (formerly ControlManip) is accepted by WRL (7th Robot Learning Workshop) @ ICLR 2025.
-- **[Feb 2025]** I have received Soong Ching-ling Scholarship.
-- **[Jan 2024]** I have received Jardine Scholarship.
+- **Sep 2026** We have open-sourced [HOT: Robot Tool Design from Scratch via Behavior-Aware Hierarchical Optimization](https://hot.yinghanchen.com/), a framework that jointly designs tool structure, shape, and action from scratch.
+- **Jul 2026** [TacThru](https://tacthru.yuyang.li/) received a Runner-up Award at the R:SS 2026 Workshop on Tactile Sensing for Robotic Foundation Models.
+- **Jul 2026** I received the Dean's Scholarship (Special Award) from the Institute for Artificial Intelligence, Peking University.
+- **Jun 2026** I received the Academic Rising Star Award, an undergraduate research honor from Yuanpei College, Peking University.
+- **May 2026** I was awarded a Beijing Natural Science Foundation "Qiyan" Undergraduate Research Grant.
+- **Mar 2026** Our research [TacThru](https://tacthru.yuyang.li/) is accepted by RA-L 2026.
+- **Feb 2026** Honored to announce that I will be joining the [Movement Lab](https://stanford-tml.github.io/main/) at Stanford University as a summer intern.
+- **Dec 2025** We have open-sourced the [TacThru](https://tacthru.yuyang.li/) project.
+- **Aug 2025** Our research [ControlVLA](https://controlvla.github.io/) is accepted by CoRL 2025.
+- **Jun 2025** Our research [Ag2x2](https://github.com/ziyin-xiong/Ag2x2) is accepted by IROS 2025 as an oral presentation.
+- **Feb 2025** Our research [ControlVLA](https://controlvla.github.io/) (formerly ControlManip) is accepted by WRL (7th Robot Learning Workshop) @ ICLR 2025.
+- **Feb 2025** I have received Soong Ching-ling Scholarship.
+- **Jan 2024** I have received Jardine Scholarship.
+{: .news-timeline}
 
 
 

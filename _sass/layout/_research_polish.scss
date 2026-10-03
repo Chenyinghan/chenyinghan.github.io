@@ -1,0 +1,237 @@
+/* Small visual accents for the news timeline and publication cards. */
+:root {
+  --research-accent: #3078ac;
+  --research-card-bg: #fff;
+  --research-tint: rgba(48, 120, 172, 0.035);
+  --research-border: rgba(48, 120, 172, 0.17);
+  --research-shadow: 0 8px 24px rgba(24, 62, 91, 0.07);
+  --research-award: #a87724;
+  --research-release: #268273;
+}
+
+html[data-theme="dark"] {
+  --research-accent: #9ac9f5;
+  --research-card-bg: #42474f;
+  --research-tint: rgba(143, 165, 245, 0.055);
+  --research-border: rgba(153, 185, 231, 0.23);
+  --research-shadow: 0 8px 26px rgba(0, 0, 0, 0.16);
+  --research-award: #eac582;
+  --research-release: #8bd5bc;
+}
+
+.publication-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  margin-top: 1.8em;
+  font-size: 1.05em;
+
+  &::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--research-border);
+  }
+}
+
+.archive .publication-card {
+  margin-bottom: 1.25em;
+  padding: 1.2em;
+  border: 1px solid var(--research-border);
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--research-tint), transparent 55%), var(--research-card-bg);
+  box-shadow: 0 2px 8px rgba(24, 62, 91, 0.025);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+
+  .archive__item-title {
+    margin: 0 0 0.6em;
+    font-size: 1.1em;
+    line-height: 1.45;
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--research-accent);
+    }
+  }
+
+  > p:not(.publication-card__links) {
+    margin-bottom: 1em;
+    font-size: 0.8em;
+    opacity: 0.85;
+  }
+
+  .archive__item-excerpt {
+    margin: 0.9em 0;
+
+    p { margin: 0; }
+    img {
+      display: block;
+      transform-origin: left center;
+      transition: transform 220ms ease;
+    }
+  }
+
+  .publication-card__links {
+    margin: 1em 0 0;
+    line-height: 2;
+
+    > br { display: none; }
+
+    > a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.2em;
+      margin: 0.25em 0.15em 0 0;
+      padding: 0.1em 0.6em;
+      border: 1px solid var(--research-border);
+      border-radius: 6px;
+      color: var(--research-accent);
+      font-size: 0.75em;
+      text-decoration: none;
+      transition: background-color 180ms ease, border-color 180ms ease;
+
+      &:hover {
+        border-color: var(--research-accent);
+        background: var(--research-tint);
+      }
+    }
+  }
+
+  .publication-card__authors {
+    display: block;
+    margin-bottom: 0.65em;
+    font-size: 0.82em;
+    line-height: 1.7;
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--research-accent);
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+}
+
+/* The list stays regular, editable Markdown in about.md. */
+.page__content .news-timeline {
+  position: relative;
+  margin: 1.2em 0 0;
+  padding: 0;
+  list-style: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 1.6em;
+    bottom: 1.6em;
+    left: 6.75em;
+    width: 1px;
+    background: var(--research-border);
+  }
+
+  > li {
+    position: relative;
+    margin: 0;
+    padding: 0.85em 0 0.85em 8.15em;
+    border-bottom: 1px solid var(--research-border);
+    line-height: 1.7;
+
+    &:last-child { border-bottom: 0; }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 1.5em;
+      left: calc(6.75em - 4px);
+      width: 9px;
+      height: 9px;
+      border: 2px solid var(--global-bg-color);
+      border-radius: 50%;
+      background: var(--research-accent);
+      box-shadow: 0 0 0 1px var(--research-border);
+    }
+
+    &[data-news-kind="award"]::before {
+      background: var(--research-award);
+    }
+
+    &[data-news-kind="release"]::before {
+      background: var(--research-release);
+    }
+
+    > strong:first-child {
+      position: absolute;
+      top: 1.1em;
+      left: 0;
+      color: var(--research-accent);
+      font-size: 0.8em;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .archive .publication-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--research-accent);
+    box-shadow: var(--research-shadow);
+
+    .archive__item-excerpt img { transform: scale(1.015); }
+  }
+}
+
+/* Content is visible by default; JS animates only off-screen items once. */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal-pending {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  .reveal-entering {
+    animation: research-reveal 380ms ease both;
+  }
+}
+
+@keyframes research-reveal {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+  .archive .publication-card { padding: 0.9em; }
+
+  .page__content .news-timeline {
+    &::before { left: 0.3em; }
+
+    > li {
+      padding: 0.9em 0 0.9em 1.65em;
+
+      &::before { left: calc(0.3em - 4px); top: 1.35em; }
+
+      > strong:first-child {
+        position: static;
+        display: block;
+        margin-bottom: 0.35em;
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .archive .publication-card,
+  .archive .publication-card img,
+  .archive .publication-card a {
+    transition: none;
+  }
+}
+
+@media print {
+  .reveal-pending { opacity: 1; transform: none; }
+  .reveal-entering { animation: none; }
+  .archive .publication-card { box-shadow: none; break-inside: avoid; }
+}

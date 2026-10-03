@@ -13,7 +13,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if page.url == '/publications/' and post.collection == 'publications' %} publication-card{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -55,13 +55,13 @@
       {% if include.image_loading == 'eager' %}
         {% assign archive_excerpt = archive_excerpt | replace: 'loading="lazy"', 'loading="eager"' %}
       {% endif %}
-    <p class="archive__item-excerpt" itemprop="description">{{ archive_excerpt | markdownify }}</p>
+    <div class="archive__item-excerpt" itemprop="description">{{ archive_excerpt | markdownify }}</div>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
-    <p>
-      {% if post.authors %}{{post.authors}}<br />{% endif %}
+    <p class="publication-card__links">
+      {% if post.authors %}<span class="publication-card__authors">{{post.authors}}</span><br />{% endif %}
 
       
       {% if post.projecturl %}<a href="{{  post.projecturl  }}"><i class="fas fa-fw fa-globe"></i> Project Page</a> {% endif %}

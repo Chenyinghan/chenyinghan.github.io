@@ -12,6 +12,7 @@
     "vendor/breakpoint/breakpoint",
 
     "themes",
+    "typography",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
@@ -36,6 +37,7 @@
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv",
+    "layout/research_polish",
 
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
