@@ -15,6 +15,9 @@ redirect_from:
 
 - B.Sc. in Artificial Intelligence, Tong Class, Yuanpei College, Peking University (Expected Jun. 2028)
 
+- Visiting Student, Department of Computer Science and Technology, University of Cambridge (2024–2026)  
+  Supported by the Jardine Scholarship.
+
 ---
 
 ## RESEARCH INTERESTS
@@ -38,8 +41,13 @@ redirect_from:
 
 ## PUBLICATIONS
 
+- **HOT: Robot Tool Design from Scratch via Behavior-Aware Hierarchical Optimization**  
+  *arXiv preprint, 2026*  
+  Yinghan Chen<sup>&#42;</sup>, Xiyao Tian<sup>&#42;</sup>, Yizan Dai, Yuyang Li<sup><i class="fas fa-envelope"></i></sup>, Yixin Zhu<sup><i class="fas fa-envelope"></i></sup>
+
 - **Simultaneous Tactile-Visual Perception for Learning Multimodal Robot Manipulation**  
   *Accepted to RA-L 2026*  
+  *Runner-up Award, R:SS 2026 Workshop on Tactile Sensing for Robotic Foundation Models*  
   Yuyang Li<sup>&#42;</sup>, Yinghan Chen<sup>&#42;</sup>, Zihang Zhao, Puhao Li, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>, Yixin Zhu<sup><i class="fas fa-envelope"></i></sup>
 
 - **ControlVLA: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models**  
@@ -54,6 +62,10 @@ redirect_from:
 
 ## HONORS AND AWARDS
 
+- Runner-up Award for TacThru, R:SS 2026 Workshop on Tactile Sensing for Robotic Foundation Models (2026)  
+- Dean's Scholarship (Special Award), Institute for Artificial Intelligence, Peking University (2026)  
+- Academic Rising Star Award, Yuanpei College, Peking University (2026)  
+- Beijing Natural Science Foundation "Qiyan" Undergraduate Research Grant (2026)  
 - Soong Ching-ling Scholarship (2025)  
 - Jardine Scholarship (2024)  
 - Mingde Scholarship (2023)  
