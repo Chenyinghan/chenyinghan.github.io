@@ -2,18 +2,41 @@
 
 <a href="/sitemap/">Sitemap</a>
 
-<!-- Support for MatJax -->
+{% if content contains 'math/tex' or content contains '$$' or content contains '\(' or content contains '\[' or content contains '<math' %}
+<!-- Load MathJax only on pages containing mathematical notation. -->
 <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+{% endif %}
 
-<!-- Support for Plotly -->
+{% if content contains 'language-plotly' %}
+<!-- Load Plotly only on pages containing Plotly code blocks. -->
 <script defer src='https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js'></script>
+{% endif %}
 
-<!-- Support for Mermaid -->
+{% if content contains 'language-mermaid' %}
+<!-- Load Mermaid only on pages containing Mermaid code blocks. -->
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({startOnLoad:true, theme:'default'});
-    await mermaid.run({querySelector:'code.language-mermaid'});
+    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
+    const diagrams = Array.from(document.querySelectorAll('code.language-mermaid'),
+      node => ({ node, source: node.textContent }));
+    const renderDiagrams = async () => {
+      mermaid.initialize({startOnLoad:false, theme:systemTheme.matches ? 'dark' : 'default'});
+      for (const { node, source } of diagrams) {
+        node.removeAttribute('data-processed');
+        node.textContent = source;
+      }
+      await mermaid.run({nodes:diagrams.map(({ node }) => node)});
+    };
+    if (diagrams.length > 0) {
+      let rendering = Promise.resolve();
+      const updateDiagrams = () => {
+        rendering = rendering.then(renderDiagrams).catch(console.error);
+      };
+      updateDiagrams();
+      systemTheme.addEventListener('change', updateDiagrams);
+    }
 </script>
+{% endif %}
 
 <!-- end custom footer snippets -->

@@ -3,7 +3,7 @@ title: "Ag2x2: Robust Agent-Agnostic Visual Representations for Zero-Shot Bimanu
 collection: publications
 category: conferences # books / manuscripts / conferences / preprints
 permalink: /publication/Ag2x2
-excerpt: '<img src="/files/Ag2x2/teaser.png" alt="Teaser Image" width="80%" style="border-radius: 5px;">'
+excerpt: '<img src="/files/Ag2x2/teaser-web.webp" srcset="/files/Ag2x2/teaser-480.webp 480w, /files/Ag2x2/teaser-960.webp 960w, /files/Ag2x2/teaser-1440.webp 1440w, /files/Ag2x2/teaser-web.webp 1800w" sizes="(min-width: 1280px) 790px, (min-width: 925px) 565px, (min-width: 768px) calc(80vw - 28.8px), calc(80vw - 25.6px)" alt="Teaser Image" width="1800" height="517" loading="lazy" decoding="async" style="width: 80%; height: auto; border-radius: 5px;">'
 date: 2025-06-16
 venue: 'International Conference on Intelligent Robots and Systems (IROS)'
 projecturl: 'https://ziyin-xiong.github.io/ag2x2.github.io/'
@@ -16,6 +16,6 @@ bibtexurl: '/files/Ag2x2/Ag2x2.bib'
 
 authors: 'Ziyin Xiong*, Yinghan Chen*, Puhao Li, Yixin Zhu, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>'
 ---
-<img src="/files/Ag2x2/teaser.png" alt="Teaser Image" width="100%" style="border-radius: 5px;">
+<img src="/files/Ag2x2/teaser-web.webp" srcset="/files/Ag2x2/teaser-480.webp 480w, /files/Ag2x2/teaser-960.webp 960w, /files/Ag2x2/teaser-1440.webp 1440w, /files/Ag2x2/teaser-web.webp 1800w" sizes="(min-width: 1280px) 770px, (min-width: 925px) 550px, (min-width: 768px) calc(100vw - 36px), calc(100vw - 32px)" alt="Teaser Image" width="1800" height="517" loading="eager" decoding="async" style="width: 100%; height: auto; border-radius: 5px;">
 
 Bimanual manipulation, fundamental to human daily activities, remains a challenging task due to its inherent complexity of coordinated control. Recent advances have enabled zero-shot learning of single-arm manipulation skills through agent-agnostic visual representations derived from human videos; however, these methods overlook crucial agent-specific information necessary for bimanual coordination, such as end-effector positions. We propose Ag2x2, a computational framework for bimanual manipulation through coordination-aware visual representations that jointly encode object states and hand motion patterns while maintaining agent-agnosticism. Extensive experiments demonstrate that Ag2x2 achieves a 73.5% success rate across 13 diverse bimanual tasks from Bi-DexHands and PerAct2, including challenging scenarios with deformable objects like ropes. This performance outperforms baseline methods and even surpasses the success rate of policies trained with expert-engineered rewards. Furthermore, we show that representations learned through Ag2x2 can be effectively leveraged for imitation learning, establishing a scalable pipeline for skill acquisition without expert supervision. By maintaining robust performance across diverse tasks without human demonstrations or engineered rewards, Ag2x2 represents a step toward scalable learning of complex bimanual robotic skills.

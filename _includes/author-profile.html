@@ -9,6 +9,13 @@
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+    {% elsif author.avatar == "profile.png" %}
+      <img src="{{ base_path }}/images/profile-320.webp"
+           srcset="{{ base_path }}/images/profile-160.webp 160w, {{ base_path }}/images/profile-320.webp 320w, {{ base_path }}/images/profile-480.webp 480w"
+           sizes="(min-width: 925px) 175px, 36px"
+           width="2027" height="2703"
+           class="author__avatar" alt="{{ author.name }}"
+           loading="eager" decoding="async" fetchpriority="high" />
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
     {% endif %}

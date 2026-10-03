@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a third-year undergraduate student at [Peking University](https://english.pku.edu.cn/), pursuing a B.Sc. in General Artificial Intelligence in the [Tong Class](https://tongclass.ac.cn/), an honors program at [Yuanpei College](https://yuanpei.pku.edu.cn/en/). I work closely with the [CoRe Lab](https://pku.ai/) at [PKU Institute for Artificial Intelligence](https://www.ai.pku.edu.cn/en/), advised by [Dr. Yixin Zhu](https://yzhu.io/). I am also a visiting student at the [University of Cambridge](https://www.cst.cam.ac.uk/) and a research intern at the [TML Lab](https://tml.stanford.edu/) at [Stanford University](https://www.cs.stanford.edu/), supervised by Prof. Karen Liu.
+I am currently a fourth-year undergraduate student at [Peking University](https://english.pku.edu.cn/), pursuing a B.Sc. in General Artificial Intelligence in the [Tong Class](https://tongclass.ac.cn/), an honors program at [Yuanpei College](https://yuanpei.pku.edu.cn/en/). I work closely with the [CoRe Lab](https://pku.ai/) at [PKU Institute for Artificial Intelligence](https://www.ai.pku.edu.cn/en/), advised by [Dr. Yixin Zhu](https://yzhu.io/). I am also a visiting student at the [University of Cambridge](https://www.cst.cam.ac.uk/) and a research intern at the [TML Lab](https://tml.stanford.edu/) at [Stanford University](https://www.cs.stanford.edu/), supervised by Prof. Karen Liu.
 
 My research lies at the intersection of robot learning, physics-based simulation, grasping and manipulation, and multimodal perception. I am broadly interested in enabling embodied agents to understand physical structures, reason about dynamics, and perform dexterous manipulation through integrated multimodal sensing. My recent work spans visual–tactile sensing and learning, bimanual manipulation, tool-use and design, and differentiable simulation. I have published or submitted papers to top venues in robotics and embodied AI including RA-L, IROS and CoRL, and I hope to continue probing the deeper principles underlying intelligent robotic systems!
 
@@ -17,6 +17,11 @@ My long-term goal is to develop general-purpose robotic intelligence capable of 
 
 News
 ======
+- **[Sep 2026]** We have open-sourced [HOT: Robot Tool Design from Scratch via Behavior-Aware Hierarchical Optimization](https://hot.yinghanchen.com/), a framework that jointly designs tool structure, shape, and action from scratch.
+- **[Jul 2026]** [TacThru](https://tacthru.yuyang.li/) received a **Runner-up Award** at the **R:SS 2026 Workshop on Tactile Sensing for Robotic Foundation Models**.
+- **[Jul 2026]** I received the **Dean's Scholarship (Special Award)** from the **Institute for Artificial Intelligence, Peking University**.
+- **[Jun 2026]** I received the **Academic Rising Star Award**, an undergraduate research honor from **Yuanpei College, Peking University**.
+- **[May 2026]** I was awarded a **Beijing Natural Science Foundation "Qiyan" Undergraduate Research Grant**.
 - **[Mar 2026]** Our research [TacThru](https://tacthru.yuyang.li/) is accepted by RA-L 2026.
 - **[Feb 2026]** Honored to announce that I will be joining the [Movement Lab](https://stanford-tml.github.io/main/) at Stanford University as a summer intern.
 - **[Dec 2025]** We have open-sourced the [TacThru](https://tacthru.yuyang.li/) project.

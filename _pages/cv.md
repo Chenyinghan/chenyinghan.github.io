@@ -44,9 +44,9 @@ redirect_from:
 
 - **ControlVLA: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models**  
   *Accepted to CoRL 2025, and Robot Learning Workshop @ ICLR 2025*  
-  Puhao Li, Yingying Wu, Ziheng Xi, Wanlin Li, Yuzhe Huang, Zhiyuan Zhang, Yinghan Chen, Jianan Wang, Song-Chun Zhu, Tengyu Li<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>
+  Puhao Li, Yingying Wu, Ziheng Xi, Wanlin Li, Yuzhe Huang, Zhiyuan Zhang, Yinghan Chen, Jianan Wang, Song-Chun Zhu, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>
 
-- **Ag2x2: A Robust Agent-Agnostic Visual Representation Boosts Zero-Shot Learning of Bimanual Robotic Manipulation**  
+- **Ag2x2: Robust Agent-Agnostic Visual Representations for Zero-Shot Bimanual Manipulation**  
   *Accepted to IROS 2025, oral presentation*  
   Ziyin Xiong<sup>&#42;</sup>, Yinghan Chen<sup>&#42;</sup>, Puhao Li, Yixin Zhu, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>
 
@@ -54,7 +54,7 @@ redirect_from:
 
 ## HONORS AND AWARDS
 
-- Soong Ching-ling Scholarship (2024)  
+- Soong Ching-ling Scholarship (2025)  
 - Jardine Scholarship (2024)  
 - Mingde Scholarship (2023)  
 - First prize in China region, Honorable Award in the worldwide final in S.-T Yau High School Science Award (2022)  

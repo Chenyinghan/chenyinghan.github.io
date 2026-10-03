@@ -10,6 +10,7 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+{% assign publication_image_loading = "eager" %}
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
@@ -23,14 +24,15 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include archive-single.html image_loading=publication_image_loading %}
+      {% assign publication_image_loading = "lazy" %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% include archive-single.html image_loading=publication_image_loading %}
+    {% assign publication_image_loading = "lazy" %}
   {% endfor %}
 {% endif %}
-
 
 

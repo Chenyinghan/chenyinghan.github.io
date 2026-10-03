@@ -3,7 +3,7 @@ title: "Simultaneous Tactile-Visual Perception for Learning Multimodal Robot Man
 collection: publications
 category: manuscripts # books / manuscripts / conferences / preprints
 permalink: /publication/TacThru
-excerpt: '<img src="/files/TacThru/teaser.svg" alt="Teaser Image" width="80%" style="border-radius: 5px;">'
+excerpt: '<img src="/files/TacThru/teaser-web.webp" srcset="/files/TacThru/teaser-480.webp 480w, /files/TacThru/teaser-960.webp 960w, /files/TacThru/teaser-1440.webp 1440w, /files/TacThru/teaser-web.webp 1800w" sizes="(min-width: 1280px) 790px, (min-width: 925px) 565px, (min-width: 768px) calc(80vw - 28.8px), calc(80vw - 25.6px)" alt="Teaser Image" width="1800" height="574" loading="lazy" decoding="async" style="width: 80%; height: auto; border-radius: 5px;">'
 date: 2026-3-3
 venue: 'IEEE Robotics and Automation Letters (RA-L)'
 projecturl: 'https://tacthru.yuyang.li'
@@ -16,6 +16,6 @@ bibtexurl: '/files/TacThru/TacThru.bib'
 
 authors: 'Yuyang Li*, Yinghan Chen*, Zihang Zhao, Puhao Li, Tengyu Liu<sup><i class="fas fa-envelope"></i></sup>, Siyuan Huang<sup><i class="fas fa-envelope"></i></sup>, Yixin Zhu<sup><i class="fas fa-envelope"></i></sup>'
 ---
-<img src="/files/TacThru/teaser.svg" alt="Teaser Image" width="100%" style="border-radius: 5px;">
+<img src="/files/TacThru/teaser-web.webp" srcset="/files/TacThru/teaser-480.webp 480w, /files/TacThru/teaser-960.webp 960w, /files/TacThru/teaser-1440.webp 1440w, /files/TacThru/teaser-web.webp 1800w" sizes="(min-width: 1280px) 770px, (min-width: 925px) 550px, (min-width: 768px) calc(100vw - 36px), calc(100vw - 32px)" alt="Teaser Image" width="1800" height="574" loading="eager" decoding="async" style="width: 100%; height: auto; border-radius: 5px;">
 
 Robotic manipulation requires both rich multimodal perception and effective learning frameworks to handle complex real-world tasks. See-Through-Skin (STS) sensors, which combine tactile and visual perception, offer promising sensing capabilities, while modern imitation learning provides powerful tools for policy acquisition. However, existing STS designs lack simultaneous multimodal perception and suffer from unreliable tactile tracking. Furthermore, integrating these rich multimodal signals into learning-based manipulation pipelines remains an open challenge. We introduce TacThru, an STS sensor enabling simultaneous visual perception and robust tactile signal extraction, and TacThru-UMI, an imitation learning framework that leverages these multimodal signals for manipulation. Our sensor features a fully transparent elastomer, persistent illumination, novel keyline markers, and efficient tracking, while our learning system integrates these signals through a Transformer-based Diffusion Policy. Experiments on five challenging real-world tasks show that TacThru-UMI achieves an average success rate of 85.5%, significantly outperforming the baselines of alternating tactile-visual (66.3%) and vision-only (55.4%). The system excels in critical scenarios, including contact detection with thin and soft objects and precision manipulation requiring multimodal coordination. This work demonstrates that combining simultaneous multimodal perception with modern learning frameworks enables more precise, adaptable robotic manipulation.
