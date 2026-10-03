@@ -23,10 +23,9 @@ redirect_from:
 ## RESEARCH INTERESTS
 
 - Robot Learning
-- Grasping and Manipulation
+- Dexterous Manipulation
 - Multimodal Perception (Visual, Tactile, and Beyond)
 - Tool Design and Tool-use
-- Physics-based Simulation and Differentiable Dynamics
 
 
 ---
